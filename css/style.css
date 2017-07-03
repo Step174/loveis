@@ -10,7 +10,6 @@
  body {
      position: relative;
      background-color: white;
-     outline: 1px solid red;
      font-family: Verdana, Geneva, sans-serif;
  }
  
@@ -21,7 +20,7 @@
  .body_all {
      position: relative;
      /*max-width: 1400px;*/
-     min-width: 1124px;
+     /*min-width: 1124px;*/
      margin: 0 auto
  }
  /*.container {
@@ -146,7 +145,7 @@
  }
  
  .works {
-     margin-bottom: 250px;
+     margin-bottom: 135px;
  }
  
  .text-center {
@@ -165,22 +164,22 @@
  
  .text-center p {
      width: 595px;
-     margin-bottom: 35px;
+     margin-bottom: 27px;
      font-size: 14px;
-     letter-spacing: 1.2px;
+     letter-spacing: 1.4px;
      font-style: italic;
      line-height: 36px;
      text-align: center;
-     outline: 1px solid red;
  }
  
  .btn-works {
      display: block;
      margin: 0 auto;
-     padding: 20px 23px;
+     padding: 21px 28px;
      background-color: #fecccc;
      font-size: 16px;
-     letter-spacing: 1;
+     font-weight: normal;
+     letter-spacing: 1.2px;
      font-style: italic;
      color: black;
      transition: 0.2s;
@@ -197,13 +196,13 @@
  .text-down {
      width: 674px;
      margin: 0 auto;
-     margin-bottom: 100px;
+     margin-bottom: 20px;
  }
  
  .reviews {
      position: relative;
      margin-left: auto;
-     margin-right: 85px;
+     margin-right: 111px;
      margin-bottom: 140px;
      width: 628px;
  }
@@ -277,14 +276,74 @@
  }
  
  .all-works {
-     display: flex;
-     overflow: auto;
+    display: flex;
+    overflow: hidden;
+    max-width: 1400px;
+    margin: 0 auto
+ }
+
+.prev-block {display: ;}
+
+ .prev-works {
+     position: relative;
+     width: 281px;
+     min-height: 374px;
+     transition: 0.1s;
+ }
+
+.prev-works:hover {
+     outline: 3px solid #fecccc;
+     z-index: 11111;
+}
+
+.prev-works:hover .look {
+     display: block;
+}
+
+ .prev-works img {
+ z-index: -11111;
+ }
+
+.prev-works h4 {
+     padding: 5px 0px;
+     text-align: center;
+}
+
+.prev-works p {
+     padding: 10px 0px;
+     text-align: center;
+}
+
+ .look {
+     display: none;
+     position: absolute;
+     bottom: 0;
+     width: 281px;
+     padding: 10px 0px;
+     background-color: #fecccc;
+     text-align: center;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     font-style: italic;
+     color: black;
+     transition: 0.1s;
  }
  
  footer p {
      display: block;
-     width: 120px;
+     text-align: center;
+     padding: 10px 0;
+     font-weight: bolder;
+     letter-spacing: 1.2px;
+     /*width: 120px;
+     margin: 0 auto;*/
+ }
+
+.foot-email {
+     width: 164px;
      margin: 0 auto;
+     margin-bottom: 30px;
+     border-bottom: 2px solid black;
  }
  
  .social {
@@ -292,13 +351,14 @@
      justify-content: space-around;
      width: 120px;
      margin: 0 auto;
-     margin-bottom: 30px;
  }
  
  .social a {
      display: inline-block;
      width: 30px;
      height: 30px;
+     margin: 0;
+     margin-bottom: 60px;
      background-color: red;
      outline: 1px solid red;
  }
