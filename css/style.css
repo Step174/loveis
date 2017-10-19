@@ -109,6 +109,9 @@
  .header-nav li:hover {
      border-bottom: 3px solid #e26d6d;
  }
+
+
+ .header-nav li a.active {color: #e26d6d;}
  
  .text-up {
      width: 420px;
@@ -288,12 +291,12 @@
      position: relative;
      width: 281px;
      min-height: 374px;
+     cursor: pointer;
      transition: 0.1s;
  }
 
 .prev-works:hover {
-     outline: 3px solid #fecccc;
-     z-index: 11111;
+     box-shadow: inset 0px 0px 0px 4px rgba(254,204,204,1);
 }
 
 .prev-works:hover .look {
@@ -301,7 +304,8 @@
 }
 
  .prev-works img {
- z-index: -11111;
+     position: relative;
+     z-index: -1;
  }
 
 .prev-works h4 {
@@ -326,7 +330,11 @@
      letter-spacing: 1.2px;
      font-style: italic;
      color: black;
-     transition: 0.1s;
+     transition: 0.2s;
+ }
+
+ .look:hover {
+     background-color: #ffb0b0;
  }
  
  footer p {
@@ -335,8 +343,6 @@
      padding: 10px 0;
      font-weight: bolder;
      letter-spacing: 1.2px;
-     /*width: 120px;
-     margin: 0 auto;*/
  }
 
 .foot-email {
@@ -362,3 +368,73 @@
      background-color: red;
      outline: 1px solid red;
  }
+
+/*--------portfolio----------*/
+
+.portfolio-wedding {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.wedding {
+     display: flex;
+     justify-content: space-between;
+     width: 850px;
+     outline: 1px solid green;
+}
+
+.photo-wedding {
+     width: 250px;
+     min-height: 300px;
+     outline: 1px solid red;
+}
+
+
+.center-space {
+     width: 50px;
+     height: 50px;
+     outline: 1px solid black;
+}
+
+
+/*-------rewies-----*/
+
+.wed-rew {
+     margin-bottom: 30px;
+}
+
+.rewies-text {
+     position: relative;
+     width: 400px;
+     text-align: center;
+     background: white;
+     outline: 1px solid red;
+}
+
+.rewies-photo-wed {
+     width: 400px;
+     min-height: 300px;
+     outline: 1px solid red;
+}
+
+.arrow-rew {
+     position: absolute;
+     left: 45%;
+     bottom: 0;
+}
+
+/*---------about-us----------*/
+
+.working {
+     display: flex;
+     justify-content: space-around;
+     width: 70%;
+     outline: 1px solid tomato;
+}
+
+.work-left, .work-right {
+     width: 300px;
+     min-height: ;
+     outline: 1px solid green;
+}
