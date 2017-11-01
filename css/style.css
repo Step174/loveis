@@ -47,10 +47,28 @@
      right: 0;
      z-index: -111;
  }
+ .back-up-center {
+     position: absolute;
+     top: 280px;
+     left: 360px;
+     z-index: -111;
+ }
+ .back-center-right {
+     position: absolute;
+     top: 680px;
+     left: 660px;
+     z-index: -111;
+ }
  
  .back-center-left {
      position: absolute;
      top: 40%;
+     z-index: -111;
+ }
+
+ .back-center1-left {
+     position: absolute;
+     top: 50%;
      z-index: -111;
  }
  
@@ -61,6 +79,13 @@
  }
  
  .back-down-right {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     z-index: -111;
+ }
+
+ .back-down1-right {
      position: absolute;
      bottom: 0;
      right: 0;
@@ -371,6 +396,14 @@
 
 /*--------portfolio----------*/
 
+.our-wedding {
+     width: 500px;
+     margin-bottom: 20px;
+}
+.our-wedding p {
+     text-align: center;
+}
+
 .portfolio-wedding {
      display: flex;
      flex-direction: column;
@@ -378,6 +411,7 @@
 }
 
 .wedding {
+     position: relative;
      display: flex;
      justify-content: space-between;
      width: 850px;
@@ -385,18 +419,31 @@
 }
 
 .photo-wedding {
-     width: 250px;
+     width: 300px;
      min-height: 300px;
      outline: 1px solid red;
 }
 
 
 .center-space {
-     width: 50px;
-     height: 50px;
+     width: 160px;
+     height: 52px;
+     margin: 20px 0;
      outline: 1px solid black;
 }
 
+.wedding-2 {
+     width: 305px;
+}
+
+.wedding-3 {
+     width: 180px;
+}
+
+.wedding-info {
+     position: absolute;
+     bottom: 0;
+}
 
 /*-------rewies-----*/
 
