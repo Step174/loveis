@@ -414,13 +414,13 @@
      position: relative;
      display: flex;
      justify-content: space-between;
-     width: 850px;
+     width: 1170px;
+     height: 620px;
      outline: 1px solid green;
 }
 
 .photo-wedding {
-     width: 300px;
-     min-height: 300px;
+     width: 439px;
      outline: 1px solid red;
 }
 
@@ -433,11 +433,17 @@
 }
 
 .wedding-2 {
-     width: 305px;
+     width: 431px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
 
 .wedding-3 {
-     width: 180px;
+     width: 260px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
 
 .wedding-info {
@@ -445,10 +451,21 @@
      bottom: 0;
 }
 
+.wedding-info h2, .wedding-info p {
+     font-size: 16px;
+     color: #ffffff;
+}
+
+.wedding-info a {
+     font-size: 16px;
+     color: #ffffff;
+}
+
 /*-------rewies-----*/
 
 .wed-rew {
      margin-bottom: 30px;
+     width: 1170px;
 }
 
 .rewies-text {
@@ -460,7 +477,7 @@
 }
 
 .rewies-photo-wed {
-     width: 400px;
+     width: 570px;
      min-height: 300px;
      outline: 1px solid red;
 }
