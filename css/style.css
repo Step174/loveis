@@ -151,7 +151,7 @@
      left: 50%;
      margin-left: -123px;
      width: 250px;
-     height: 80px;
+     /*height: 80px;*/
      padding: 18px 51px;
      background-color: #e26d6d;
      font-size: 20px;
@@ -479,10 +479,18 @@
 
  /*-------rewies-----*/
 
+.btn-rew {
+     width: 300px;
+      margin-left: -135px;
+}
+
  .wed-rew {
      margin-bottom: 30px;
      width: 1170px;
-     height: 
+ }
+
+ .text-rew {
+     margin-bottom: 55px;
  }
 
  .rewies-text {
@@ -492,7 +500,12 @@
      background: white;
      font-size: 14px;
      line-height: 28px;
+     transition: 0.2s;
+     cursor: pointer;
+ }
 
+ .rewies-text:hover {
+     background: #ffebeb;
  }
 
  .rewies-text h3 {
@@ -513,20 +526,93 @@
  .arrow-rew {
      position: absolute;
      left: 45%;
-     bottom: 0;
+     bottom: -18px;
  }
  /*---------about-us----------*/
 
  .working {
      display: flex;
-     justify-content: space-around;
-     width: 70%;
-     outline: 1px solid tomato;
+     justify-content: space-between;
+     width: 60%;
+     margin-top: 80px;
+     /*outline: 1px solid tomato;*/
  }
 
  .work-left,
  .work-right {
-     width: 300px;
-     min-height: ;
-     outline: 1px solid green;
+     width: 330px;
+     /*outline: 1px solid green;*/
  }
+
+ .w1 {
+     width: 70%;
+     margin-bottom: 230px;}
+
+ .w1 .work-right {
+     margin-top: 80px;
+     margin-right: 0px;
+ }
+
+ .w2 {
+     position: relative;
+     left: -60px;
+     width: 50%;
+     margin-bottom: 270px;
+
+ }
+
+  .w2 .work-right {
+     margin-top: 150px;
+ }
+
+ .w3 {
+     position: relative;
+     left: -55px;
+     width: 65%;
+     margin-bottom: 50px;
+ }
+
+ .w3 .work-right {
+     margin-top: 100px;
+ }
+
+ .w4 {
+     position: relative;
+     left: 40px;
+     width: 350px;
+     margin-bottom: 150px; 
+}
+
+.back-up-center {
+     position: absolute;
+     top: 680px;
+     left: 30%;
+     z-index: -111;
+}
+
+.back-center1-right {
+     position: absolute;
+     top: 950px;
+     right: 0;
+     z-index: -111;
+}
+.back-center1-left {
+     position: absolute;
+     top: 1070px;
+     left: 0;
+     z-index: -111;
+}
+
+.back-down1-right {
+     position: absolute;
+     top: 1490px;
+     right: 0;
+     z-index: -111;
+}
+
+.back-down2-left {
+     position: absolute;
+     top: 1690px;
+     left: 0;
+     z-index: -111;
+}
