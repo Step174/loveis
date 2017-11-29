@@ -180,7 +180,7 @@
      justify-content: center;
      align-items: center;
      margin: 0 auto;
-     width: 588px; 
+     width: 588px;
  }
 
  .text-center img {
@@ -425,7 +425,7 @@
  }
 
  .photo-wedding:first-child:hover {
-    filter: saturate(130%);
+     filter: saturate(130%);
  }
 
 
@@ -463,6 +463,7 @@
      color: #ffffff;
      margin: 15px 0;
  }
+
  .wedding-info p {
      margin-bottom: 23px;
  }
@@ -472,17 +473,16 @@
      color: #ffffff;
      transition: 0.3s;
  }
+
  .wedding-info a:hover {
      color: tomato;
  }
-
-
  /*-------rewies-----*/
 
-.btn-rew {
+ .btn-rew {
      width: 300px;
-      margin-left: -135px;
-}
+     margin-left: -135px;
+ }
 
  .wed-rew {
      margin-bottom: 30px;
@@ -515,8 +515,8 @@
  }
 
  .rewies-text p {
-    width: 489px;
-    margin: 0 auto;
+     width: 489px;
+     margin: 0 auto;
  }
 
  .rewies-photo-wed {
@@ -546,7 +546,8 @@
 
  .w1 {
      width: 70%;
-     margin-bottom: 230px;}
+     margin-bottom: 230px;
+ }
 
  .w1 .work-right {
      margin-top: 80px;
@@ -558,10 +559,9 @@
      left: -60px;
      width: 50%;
      margin-bottom: 270px;
-
  }
 
-  .w2 .work-right {
+ .w2 .work-right {
      margin-top: 150px;
  }
 
@@ -580,39 +580,171 @@
      position: relative;
      left: 40px;
      width: 350px;
-     margin-bottom: 150px; 
-}
+     margin-bottom: 150px;
+ }
 
-.back-up-center {
+ .back-up-center {
      position: absolute;
      top: 680px;
      left: 30%;
      z-index: -111;
-}
+ }
 
-.back-center1-right {
+ .back-center1-right {
      position: absolute;
      top: 950px;
      right: 0;
      z-index: -111;
-}
-.back-center1-left {
+ }
+
+ .back-center1-left {
      position: absolute;
      top: 1070px;
      left: 0;
      z-index: -111;
-}
+ }
 
-.back-down1-right {
+ .back-down1-right {
      position: absolute;
      top: 1490px;
      right: 0;
      z-index: -111;
-}
+ }
 
-.back-down2-left {
+ .back-down2-left {
      position: absolute;
      top: 1690px;
      left: 0;
      z-index: -111;
-}
+ }
+
+
+ @media screen and (max-width: 700px) {
+     /*----media-index---------*/
+     .logo {
+         width: 95%;
+     }
+
+
+     .reviews {
+         width: 100%;
+     }
+
+     .reviews h3 {
+         margin: 0 5px;
+         text-align: center;
+     }
+
+     .reviews section {
+         flex-direction: column;
+     }
+     .reviews section img {
+         margin-top: 10px;
+     }
+
+     .text-center {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .text-center p {
+         width: 90%;
+     }
+
+     .arrow {
+         left: 50%;
+     }
+
+     .text-down {
+         width: 95%;
+     }
+
+     .text-down img,
+     .text-center img {
+         width: 95%;
+     }
+
+     .all-works {
+         justify-content: space-around;
+         flex-wrap: wrap;
+     }
+
+     .prev-works {
+         margin-bottom: 50px;
+     }
+
+     .back-up-left img {
+         width: 50%;
+     }
+
+     .back-up-right {
+         display: none;
+     }
+
+     .back-up-right-two {
+         display: none;
+     }
+     .back-center-left {
+         display: none;
+     }
+
+     .back-down-left img {
+         width: 60%;
+     }
+
+     .back-down-right {
+         display: none;
+     }
+     /*----media-rew---------*/
+     .wedding {
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         width: 90%;
+         margin-top: 0;
+         margin-bottom: 30px;
+     }
+     .rewies-text {
+         margin-bottom: 70px;
+
+         position: relative;
+         width: 95%;
+         text-align: center;
+         background: white;
+         font-size: 14px;
+         line-height: 28px;
+         transition: 0.2s;
+         cursor: pointer;
+     }
+     .rewies-text:hover {
+         background-color: white;
+     }
+
+     .rewies-text h3 {
+         font-size: 16px;
+         text-align: left;
+         margin: 20px 0px;
+     }
+
+     .rewies-text p {
+         width: 100%;
+         text-align: left;
+         margin: 0 auto;
+     }
+
+     .arrow-rew {
+         bottom: -50px;
+     }
+
+     .order {
+         order: 5;
+     }
+
+     .rewies-photo-wed {
+         width: 100%;
+     }
+     .rewies-photo-wed img {
+         width: 100%;
+     }
+ }
